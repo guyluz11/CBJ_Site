@@ -53,7 +53,8 @@ class SupportedVendorsTileGridViewNetworkImage extends StatelessWidget {
   Widget build(BuildContext context) {
     Color backgroundColorCorrect = imageBackgroundColor;
     if (backgroundColorCorrect == Colors.white) {
-      backgroundColorCorrect = backgroundColorCorrect.withOpacity(0.8);
+      backgroundColorCorrect =
+          backgroundColorCorrect.withAlpha((0.8 * 255).toInt());
     }
 
     return ColoredBox(

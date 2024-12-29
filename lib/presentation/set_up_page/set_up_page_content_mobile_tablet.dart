@@ -67,7 +67,7 @@ class SetUpPageContentMobileTablet extends StatelessWidget {
                     Container(
                       alignment: Alignment.topLeft,
                       decoration: BoxDecoration(
-                        color: Colors.black.withOpacity(0.3),
+                        color: Colors.black.withAlpha((0.3 * 255).toInt()),
                       ),
                       padding: const EdgeInsets.symmetric(
                         vertical: 50,
@@ -400,7 +400,7 @@ class SetUpPageContentMobileTablet extends StatelessWidget {
                     Container(
                       alignment: Alignment.topLeft,
                       decoration: BoxDecoration(
-                        color: Colors.black.withOpacity(0.3),
+                        color: Colors.black.withAlpha((0.3 * 255).toInt()),
                       ),
                       padding: const EdgeInsets.symmetric(
                         vertical: 50,

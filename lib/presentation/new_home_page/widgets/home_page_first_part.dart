@@ -136,7 +136,7 @@ class HomePageFirstPart extends StatelessWidget {
                     flex: 16,
                     child: TextButton(
                       style: ButtonStyle(
-                        padding: MaterialStateProperty.all<EdgeInsets>(
+                        padding: WidgetStateProperty.all<EdgeInsets>(
                           EdgeInsets.zero,
                         ),
                       ),
@@ -159,7 +159,8 @@ class HomePageFirstPart extends StatelessWidget {
                           ),
                           child: DecoratedBox(
                             decoration: BoxDecoration(
-                              color: Colors.grey.shade200.withOpacity(0.5),
+                              color: Colors.grey.shade200
+                                  .withAlpha((0.5 * 255).toInt()),
                             ),
                             child: Center(
                               child: Column(

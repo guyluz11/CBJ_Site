@@ -45,7 +45,7 @@ class FaqPageContentDesktop extends StatelessWidget {
                   children: [
                     Container(
                       decoration: BoxDecoration(
-                        color: Colors.black.withOpacity(0.3),
+                        color: Colors.black.withAlpha((0.3 * 255).toInt()),
                       ),
                       padding: const EdgeInsets.symmetric(
                         vertical: 50,

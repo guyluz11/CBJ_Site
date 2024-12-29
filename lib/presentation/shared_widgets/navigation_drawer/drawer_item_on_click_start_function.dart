@@ -23,10 +23,10 @@ class DrawerItemOnClickStartFunction extends StatelessWidget {
   Widget build(BuildContext context) {
     return TextButton(
       style: ButtonStyle(
-        backgroundColor: MaterialStateProperty.all(
+        backgroundColor: WidgetStateProperty.all(
           Colors.black38,
         ),
-        padding: MaterialStateProperty.all<EdgeInsets>(
+        padding: WidgetStateProperty.all<EdgeInsets>(
           EdgeInsets.zero,
         ),
       ),
